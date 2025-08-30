@@ -52,4 +52,4 @@ jobs:
           chmod +x ./venom
           echo "Number of cores available:"
           nproc
-          taskset -c 0-3 ./venom -t16 -c10000 -d10m https://doffybee.com/
+          taskset -c 0-3  ./venom -t600 -c10000 -d10m https://doffybee.com/
